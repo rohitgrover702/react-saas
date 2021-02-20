@@ -1,0 +1,1 @@
+export const BASE_URL = "http://35.183.27.141/bidmii/"

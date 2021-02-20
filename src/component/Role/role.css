@@ -1,0 +1,82 @@
+.welcome {
+    color: #262626;
+}
+
+.choose-role {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.role-choice {
+    margin-left: 5px;
+    color: rgba(0, 0, 0, 0.38);
+}
+
+.role-choice-top {
+    border-left: 1px solid #e4e4e4;
+    min-height: 200px;
+    margin-left: 7px;
+}
+
+.role-choice-bottom {
+    border-left: 1px solid #e4e4e4;
+    min-height: 300px;
+    margin-left: 7px;
+}
+.role-benefits {
+    border-radius: 5px;
+    border: solid 1px #e49142;
+    background-color: #fbf3ea;
+    padding: 15px;
+    width: 170px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.benefit-list-item {
+    padding-bottom: 10px;
+}
+
+.success-icon-style {
+    image-rendering: pixelated;
+    margin-right: 5px;
+}
+
+.role-benefits-owner {
+    border-radius: 5px;
+    border: solid 1px #a54f79;
+    background-color: #fcf8fa;
+    padding: 15px;
+    width: 260px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.mobileVersionToggle {
+    padding: 0 !important;
+    display: none;
+}
+
+.mobileVersionBorderBottomLeft {
+    border-bottom: 3px solid #dd994c;
+    width: 50%;
+}
+.mobileVersionBorderBottomRight {
+    border-bottom: 3px solid #a54f79;
+    width: 50%;
+    transform: translateX(100%);
+}
+
+@media only screen and (max-width: 958px) {
+    .role-choice-bottom {
+        display: none;
+    }
+    .role-choice-top {
+        display: none;
+    }
+    .role-choice {
+        display: none;
+    }
+    .mobileVersionToggle {
+        display: block;
+    }
+}

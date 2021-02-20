@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.ProjetDetailDrawerPaper {
+  width: 70%;
+}
+
+.ProductDetailjobActivitySeperator {
+  border-left: 1px sold black;
+  padding: 0 10px;
+  color: rgba(218, 218, 218, 0.99);
+}
+
+.communityProjects_mobileVersionBorderBottomLeft {
+  border-bottom: 3px solid #dd994c;
+  width: 50%;
+}
+
+.communityProjects_mobileVersionBorderBottomRight {
+  border-bottom: 3px solid #dd994c;
+  width: 50%;
+  transform: translateX(100%);
+}
+
+.CommunityProjectsMobileVersionToggle {
+  display: none;
+}
+
+.homeScreenDropDownItemContainer {
+  left: 1px;
+  position: absolute;
+  top: 50px;
+  background-color: white;
+  box-shadow: 0 1px 14px 0 rgba(167, 167, 167, 0.12), 0 5px 8px 0 rgba(167, 167, 167, 0.14),
+    0 3px 5px 0 rgba(167, 167, 167, 0.2);
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.homeScreenDropDownList {
+  list-style: none;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.homeScreenDropDownList li {
+  min-width: 200px;
+  font-size: 17px;
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.fundedProjectMessageSenderSideAfter {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  right: -7px;
+  bottom: 32px;
+  transform: rotate(45deg);
+  background-color: #fbf3ea;
+}
+
+.fundedProjectMessageReceiverSideAfter {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: -7px;
+  bottom: 32px;
+  transform: rotate(45deg);
+  background-color: #f3f3f3;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* *------------------------------------------ GLOBAL QUERIES----------------------------------------------------- */
+
+@media only screen and (max-width: 767px) {
+  .ProjetDetailDrawerPaper {
+    width: 100%;
+  }
+  .ProductDetailjobActivitySeperator {
+    visibility: visible;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .CommunityProjectsMobileVersionToggle {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  .ProductDetailjobActivitySeperator {
+    visibility: hidden;
+  }
+}
